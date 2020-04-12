@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBA89BF5243F5778007E642B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA89BF4243F5778007E642B /* AppDelegate.swift */; };
+		CBA89BF7243F5778007E642B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA89BF6243F5778007E642B /* SceneDelegate.swift */; };
+		CBA89BF9243F5778007E642B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA89BF8243F5778007E642B /* ViewController.swift */; };
+		CBA89BFC243F5778007E642B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA89BFA243F5778007E642B /* Main.storyboard */; };
+		CBA89BFE243F577B007E642B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA89BFD243F577B007E642B /* Assets.xcassets */; };
+		CBA89C01243F577B007E642B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA89BFF243F577B007E642B /* LaunchScreen.storyboard */; };
+		CBA89C0C243F577B007E642B /* SemiModalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA89C0B243F577B007E642B /* SemiModalTests.swift */; };
+		CBA89C17243F577B007E642B /* SemiModalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA89C16243F577B007E642B /* SemiModalUITests.swift */; };
+		CBA89C26243F5E5A007E642B /* SemiModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA89C24243F5E5A007E642B /* SemiModalViewController.swift */; };
+		CBA89C292440008E007E642B /* OverCurrentTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA89C282440008E007E642B /* OverCurrentTransitionable.swift */; };
+		CBA89C2B244000B4007E642B /* OverCurrentTransitioningInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA89C2A244000B4007E642B /* OverCurrentTransitioningInteractor.swift */; };
+		CBA89C2D2440044C007E642B /* ModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA89C2C2440044C007E642B /* ModalPresentationController.swift */; };
+		CBA89C2F244004D0007E642B /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA89C2E244004D0007E642B /* DismissAnimator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBA89C08243F577B007E642B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA89BE9243F5778007E642B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA89BF0243F5778007E642B;
+			remoteInfo = SemiModal;
+		};
+		CBA89C13243F577B007E642B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA89BE9243F5778007E642B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA89BF0243F5778007E642B;
+			remoteInfo = SemiModal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBA89BF1243F5778007E642B /* SemiModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemiModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA89BF4243F5778007E642B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBA89BF6243F5778007E642B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CBA89BF8243F5778007E642B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBA89BFB243F5778007E642B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBA89BFD243F577B007E642B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBA89C00243F577B007E642B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBA89C02243F577B007E642B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA89C07243F577B007E642B /* SemiModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemiModalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA89C0B243F577B007E642B /* SemiModalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalTests.swift; sourceTree = "<group>"; };
+		CBA89C0D243F577B007E642B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA89C12243F577B007E642B /* SemiModalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemiModalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA89C16243F577B007E642B /* SemiModalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalUITests.swift; sourceTree = "<group>"; };
+		CBA89C18243F577B007E642B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA89C24243F5E5A007E642B /* SemiModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiModalViewController.swift; sourceTree = "<group>"; };
+		CBA89C282440008E007E642B /* OverCurrentTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverCurrentTransitionable.swift; sourceTree = "<group>"; };
+		CBA89C2A244000B4007E642B /* OverCurrentTransitioningInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverCurrentTransitioningInteractor.swift; sourceTree = "<group>"; };
+		CBA89C2C2440044C007E642B /* ModalPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationController.swift; sourceTree = "<group>"; };
+		CBA89C2E244004D0007E642B /* DismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA89BEE243F5778007E642B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA89C04243F577B007E642B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA89C0F243F577B007E642B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBA89BE8243F5778007E642B = {
+			isa = PBXGroup;
+			children = (
+				CBA89BF3243F5778007E642B /* SemiModal */,
+				CBA89C0A243F577B007E642B /* SemiModalTests */,
+				CBA89C15243F577B007E642B /* SemiModalUITests */,
+				CBA89BF2243F5778007E642B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA89BF2243F5778007E642B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA89BF1243F5778007E642B /* SemiModal.app */,
+				CBA89C07243F577B007E642B /* SemiModalTests.xctest */,
+				CBA89C12243F577B007E642B /* SemiModalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA89BF3243F5778007E642B /* SemiModal */ = {
+			isa = PBXGroup;
+			children = (
+				CBA89BF4243F5778007E642B /* AppDelegate.swift */,
+				CBA89BF6243F5778007E642B /* SceneDelegate.swift */,
+				CBA89BF8243F5778007E642B /* ViewController.swift */,
+				CBA89C24243F5E5A007E642B /* SemiModalViewController.swift */,
+				CBA89C282440008E007E642B /* OverCurrentTransitionable.swift */,
+				CBA89C2A244000B4007E642B /* OverCurrentTransitioningInteractor.swift */,
+				CBA89C2C2440044C007E642B /* ModalPresentationController.swift */,
+				CBA89C2E244004D0007E642B /* DismissAnimator.swift */,
+				CBA89BFA243F5778007E642B /* Main.storyboard */,
+				CBA89BFD243F577B007E642B /* Assets.xcassets */,
+				CBA89BFF243F577B007E642B /* LaunchScreen.storyboard */,
+				CBA89C02243F577B007E642B /* Info.plist */,
+			);
+			path = SemiModal;
+			sourceTree = "<group>";
+		};
+		CBA89C0A243F577B007E642B /* SemiModalTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA89C0B243F577B007E642B /* SemiModalTests.swift */,
+				CBA89C0D243F577B007E642B /* Info.plist */,
+			);
+			path = SemiModalTests;
+			sourceTree = "<group>";
+		};
+		CBA89C15243F577B007E642B /* SemiModalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA89C16243F577B007E642B /* SemiModalUITests.swift */,
+				CBA89C18243F577B007E642B /* Info.plist */,
+			);
+			path = SemiModalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA89BF0243F5778007E642B /* SemiModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA89C1B243F577B007E642B /* Build configuration list for PBXNativeTarget "SemiModal" */;
+			buildPhases = (
+				CBA89BED243F5778007E642B /* Sources */,
+				CBA89BEE243F5778007E642B /* Frameworks */,
+				CBA89BEF243F5778007E642B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SemiModal;
+			productName = SemiModal;
+			productReference = CBA89BF1243F5778007E642B /* SemiModal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBA89C06243F577B007E642B /* SemiModalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA89C1E243F577B007E642B /* Build configuration list for PBXNativeTarget "SemiModalTests" */;
+			buildPhases = (
+				CBA89C03243F577B007E642B /* Sources */,
+				CBA89C04243F577B007E642B /* Frameworks */,
+				CBA89C05243F577B007E642B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA89C09243F577B007E642B /* PBXTargetDependency */,
+			);
+			name = SemiModalTests;
+			productName = SemiModalTests;
+			productReference = CBA89C07243F577B007E642B /* SemiModalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBA89C11243F577B007E642B /* SemiModalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA89C21243F577B007E642B /* Build configuration list for PBXNativeTarget "SemiModalUITests" */;
+			buildPhases = (
+				CBA89C0E243F577B007E642B /* Sources */,
+				CBA89C0F243F577B007E642B /* Frameworks */,
+				CBA89C10243F577B007E642B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA89C14243F577B007E642B /* PBXTargetDependency */,
+			);
+			name = SemiModalUITests;
+			productName = SemiModalUITests;
+			productReference = CBA89C12243F577B007E642B /* SemiModalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA89BE9243F5778007E642B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = shukuro;
+				TargetAttributes = {
+					CBA89BF0243F5778007E642B = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					CBA89C06243F577B007E642B = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CBA89BF0243F5778007E642B;
+					};
+					CBA89C11243F577B007E642B = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CBA89BF0243F5778007E642B;
+					};
+				};
+			};
+			buildConfigurationList = CBA89BEC243F5778007E642B /* Build configuration list for PBXProject "SemiModal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBA89BE8243F5778007E642B;
+			productRefGroup = CBA89BF2243F5778007E642B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA89BF0243F5778007E642B /* SemiModal */,
+				CBA89C06243F577B007E642B /* SemiModalTests */,
+				CBA89C11243F577B007E642B /* SemiModalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA89BEF243F5778007E642B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA89C01243F577B007E642B /* LaunchScreen.storyboard in Resources */,
+				CBA89BFE243F577B007E642B /* Assets.xcassets in Resources */,
+				CBA89BFC243F5778007E642B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA89C05243F577B007E642B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA89C10243F577B007E642B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA89BED243F5778007E642B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA89BF9243F5778007E642B /* ViewController.swift in Sources */,
+				CBA89BF5243F5778007E642B /* AppDelegate.swift in Sources */,
+				CBA89C2D2440044C007E642B /* ModalPresentationController.swift in Sources */,
+				CBA89C2B244000B4007E642B /* OverCurrentTransitioningInteractor.swift in Sources */,
+				CBA89C292440008E007E642B /* OverCurrentTransitionable.swift in Sources */,
+				CBA89C26243F5E5A007E642B /* SemiModalViewController.swift in Sources */,
+				CBA89BF7243F5778007E642B /* SceneDelegate.swift in Sources */,
+				CBA89C2F244004D0007E642B /* DismissAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA89C03243F577B007E642B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA89C0C243F577B007E642B /* SemiModalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA89C0E243F577B007E642B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA89C17243F577B007E642B /* SemiModalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA89C09243F577B007E642B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA89BF0243F5778007E642B /* SemiModal */;
+			targetProxy = CBA89C08243F577B007E642B /* PBXContainerItemProxy */;
+		};
+		CBA89C14243F577B007E642B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA89BF0243F5778007E642B /* SemiModal */;
+			targetProxy = CBA89C13243F577B007E642B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBA89BFA243F5778007E642B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA89BFB243F5778007E642B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA89BFF243F577B007E642B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA89C00243F577B007E642B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA89C19243F577B007E642B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBA89C1A243F577B007E642B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBA89C1C243F577B007E642B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6HST2ZLKB;
+				INFOPLIST_FILE = SemiModal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shukuro.SemiModal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBA89C1D243F577B007E642B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6HST2ZLKB;
+				INFOPLIST_FILE = SemiModal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shukuro.SemiModal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBA89C1F243F577B007E642B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6HST2ZLKB;
+				INFOPLIST_FILE = SemiModalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shukuro.SemiModalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SemiModal.app/SemiModal";
+			};
+			name = Debug;
+		};
+		CBA89C20243F577B007E642B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6HST2ZLKB;
+				INFOPLIST_FILE = SemiModalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shukuro.SemiModalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SemiModal.app/SemiModal";
+			};
+			name = Release;
+		};
+		CBA89C22243F577B007E642B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6HST2ZLKB;
+				INFOPLIST_FILE = SemiModalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shukuro.SemiModalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SemiModal;
+			};
+			name = Debug;
+		};
+		CBA89C23243F577B007E642B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6HST2ZLKB;
+				INFOPLIST_FILE = SemiModalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shukuro.SemiModalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SemiModal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA89BEC243F5778007E642B /* Build configuration list for PBXProject "SemiModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA89C19243F577B007E642B /* Debug */,
+				CBA89C1A243F577B007E642B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA89C1B243F577B007E642B /* Build configuration list for PBXNativeTarget "SemiModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA89C1C243F577B007E642B /* Debug */,
+				CBA89C1D243F577B007E642B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA89C1E243F577B007E642B /* Build configuration list for PBXNativeTarget "SemiModalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA89C1F243F577B007E642B /* Debug */,
+				CBA89C20243F577B007E642B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA89C21243F577B007E642B /* Build configuration list for PBXNativeTarget "SemiModalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA89C22243F577B007E642B /* Debug */,
+				CBA89C23243F577B007E642B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA89BE9243F5778007E642B /* Project object */;
+}
